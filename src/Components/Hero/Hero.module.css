@@ -1,0 +1,61 @@
+.slide{
+    margin: 6rem;
+}
+
+   .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+  }
+
+  .contentLeft {
+    max-width: 50%;
+  }
+      
+
+  .contentLeft h2{
+font-family: Fustat;
+font-weight: 650;
+font-size: 50px;
+color: rgba(16, 69, 115, 1);
+}
+
+.contentLeft p{
+font-family: Fustat;
+font-weight: 700;
+font-size: 18px;
+
+}
+
+.contentRight {
+  /* position: relative; */
+  max-width: 400px;
+  width: 100%;
+}
+
+.contentRight img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto;
+}
+
+button{
+    background: rgba(243, 184, 85, 1);
+    color: rgba(35, 31, 32, 1);
+    border: none;
+    border-radius: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    padding: .7rem 1.3rem;
+    font-weight: 700; 
+    font-size: 16px; 
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #e6b800; 
+  }
+
